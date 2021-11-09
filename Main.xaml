@@ -35,7 +35,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="16">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="32">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -52,6 +52,7 @@
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="375.2,252.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -60,7 +61,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign DisplayName="Assign - Fav Singer" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <Assign DisplayName="Assign - Favourite Singer" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[out_FavouriteSinger]</OutArgument>
       </Assign.To>
